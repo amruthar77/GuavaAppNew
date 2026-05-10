@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/amruthar77/GauvaAppNew.git'
+                url: 'https://github.com/amruthar77/GuavaAppNew.git'
             }
         }
 
